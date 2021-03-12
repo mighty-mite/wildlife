@@ -1,0 +1,28 @@
+.wrapper {
+    background: url('../img/main.jpg') no-repeat 0 0;
+    background-size: cover;
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
+    min-height: 779px;
+}
+
+@media (min-resolution: 1.5dppx) {
+    .wrapper {
+    background: url('../img/main@2x.jpg') no-repeat 0 0;
+    background-size: cover
+    }
+}
+
+.wrapper-bkg {
+    background-color: #02160b;
+}
+
+.wrapper-grey {
+    background-color: $bkg-grey
+}
+
+.wrapper-bottom {
+    background-color: $bkg-bottom
+}

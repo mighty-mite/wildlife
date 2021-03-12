@@ -1,0 +1,50 @@
+@mixin text-23-60 {
+    font-style: normal;
+    font-size: 23px;
+    line-height: 60px;
+    font-weight: 400;
+}
+
+@mixin button-trp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $white;
+    border: 2px solid $orange;
+    box-sizing: border-box;
+    border-radius: 5px;
+    line-height: 27px;
+    font-size: 23px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+        &:hover {
+            background-color: $orange;
+        }
+}
+
+@mixin button {
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    color: $white;
+    border: none;
+    background-color: $orange;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 23px;
+    line-height: 28px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+        &:hover {
+            background-color: $brown-light;
+        }
+}
+
+@mixin heading {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;  
+}

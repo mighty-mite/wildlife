@@ -1,0 +1,32 @@
+.survival {
+    margin: 0 auto;
+    padding: 20px 120px 20px 120px;
+}
+
+.survival__heading-accent {
+    @include heading;
+    margin-top: 80px;
+    margin-bottom: 51px;
+    letter-spacing: 2px;
+    color: $orange;
+}
+
+.survival__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    width: 275px;
+    margin-bottom: 49px;
+}
+
+.survival__btn {
+    @include button;
+    font-size: 23px;
+    padding: 16px 42px 16px 42px;
+    min-width: 160px;
+}
+
+.survival__btn:active {
+    background-color: $brown;
+}

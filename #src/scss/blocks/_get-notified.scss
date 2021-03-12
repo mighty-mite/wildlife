@@ -1,0 +1,47 @@
+.get-notified {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 115px 120px 242px 120px;
+}
+
+.get-notified__heading {
+    font-size: 27px;
+    line-height: 40px;
+    font-weight: 400;
+    color: $font-dark;
+    margin-bottom: 59px;
+}
+
+.get-notified__form {
+    display: flex;
+}
+
+.get-notified__email {
+    background-color: transparent;
+    border: 1px solid $font-sub;
+    height: 60px;
+    width: 540px;
+    box-sizing: border-box;
+    padding: 15px;
+    border-right: none;
+}
+
+.get-notified__email::placeholder {
+    font-size: 23px;
+    line-height: 27px;
+    color: $font-sub;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.get-notified__send {
+    @include button;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    padding: 15px 34px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.get-notified__send:active {
+    background-color: $brown
+}

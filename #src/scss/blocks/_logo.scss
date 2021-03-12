@@ -1,0 +1,35 @@
+.logo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    line-height: 60px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    color: $white;
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo__svg {
+    margin-right: 15px
+}
+
+.logo:hover .logo__name{
+    color: $brown
+}
+
+.logo__name {
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+}
+
+.logo:hover .logo__path {
+    fill: $brown
+}
+
+.logo__path {
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+}

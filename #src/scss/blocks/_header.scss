@@ -1,0 +1,52 @@
+.header {
+//  width: 1200px;
+  margin: 0 auto;
+  padding: 20px 120px 20px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__link {
+  color: $white;
+  @include text-23-60;
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+    &:hover {
+      color: $brown
+    }
+}
+
+.header__svg:hover .header__path {
+  fill: $brown
+}
+
+.header__path {
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+}
+
+.header__item {
+  margin-right: 64px;
+  display: flex;
+  align-items: center;
+}
+
+.header__item:last-child {
+  margin-right: 0;
+}
+
+.header__button {
+  @include button-trp;
+  min-width: 120px;
+  min-height: 50px;
+}
+
+.header__button:active {
+  background-color: $brown;
+  border-color: $brown;
+}
