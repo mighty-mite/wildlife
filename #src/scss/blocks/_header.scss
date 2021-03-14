@@ -1,8 +1,10 @@
 .header {
-//  width: 1200px;
+  width: 1440px;
   margin: 0 auto;
+  box-sizing: border-box;
   padding: 20px 120px 20px 120px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -49,4 +51,13 @@
 .header__button:active {
   background-color: $brown;
   border-color: $brown;
+}
+
+.header__logo {
+  margin-right: 50px;
+}
+
+.header__svg {
+  position: relative;
+  bottom: -3px
 }

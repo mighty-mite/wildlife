@@ -1,4 +1,9 @@
 .logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo__name {
     font-family: 'Roboto', sans-serif;
     font-size: 32px;
     line-height: 60px;
@@ -6,10 +11,8 @@
     font-style: normal;
     text-transform: uppercase;
     color: $white;
-
-    display: flex;
-    align-items: center;
-    
+    margin: 0;
+    min-width: 155px
 }
 
 .logo__svg {
@@ -23,6 +26,7 @@
 .logo__name {
     transition-duration: 300ms;
     transition-timing-function: ease-out;
+    
 }
 
 .logo:hover .logo__path {

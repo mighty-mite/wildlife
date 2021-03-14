@@ -1,8 +1,16 @@
-.get-notified {
+.get-notified { 
+    background-color: $bkg-grey;
+}
+
+.get-notified__wrapper {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 115px 120px 142px 120px;
+    box-sizing: border-box;
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 115px 120px 242px 120px;
 }
 
 .get-notified__heading {
@@ -15,6 +23,7 @@
 
 .get-notified__form {
     display: flex;
+    margin-bottom: 100px
 }
 
 .get-notified__email {

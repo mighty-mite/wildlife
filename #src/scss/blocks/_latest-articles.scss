@@ -1,6 +1,13 @@
 .latest-articles {
     color: $font-dark;
+    box-sizing: border-box;
+    background-color: $bkg-grey;
+}
+
+.latest-articles__wrapper {
     padding: 120px;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .latest-articles__heading {
@@ -58,10 +65,19 @@
     box-sizing: border-box;
 }
 
+.latest-articles-link {
+    position: relative;
+    bottom: -3px;
+}
+
 .latest-articles-link:first-child {
     margin-right: 63px
 }
 
 .latest-articles__svg:hover .latest-articles__path {
     fill: black
+}
+
+.latest-articles__pic:hover {
+    cursor: pointer
 }

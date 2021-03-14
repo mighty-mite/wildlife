@@ -1,17 +1,27 @@
 .footer {
-    padding: 150px 120px 150px 120px;
-    display: grid;
-    grid-template-columns: 240px 480px 240px;
-    grid-template-rows: 60px;
-    column-gap: 120px;
-
-    min-height: 359px;
-    box-sizing: border-box;
-    background: url('../img/footer.jpg') no-repeat 0 0;
+    background-image: url('../img/footer.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
     background-size: cover;
+    
+
+    background-color: $bkg-bottom;
+}
+
+.footer__wrapper {
     width: 1440px;
     margin: 0 auto;
+    min-height: 359px;
+    box-sizing: border-box;
+    padding: 50px 120px 50px 120px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
 }
+
 
 @media (min-resolution: 1.5dppx) {
     .footer {
